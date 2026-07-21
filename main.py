@@ -1,6 +1,5 @@
 import tifffile as tiff
 import matplotlib.pyplot as plt
-from matplotlib.widgets import Slider
 
 volume = tiff.imread('Sequence3.tif')
 print(volume.shape)
